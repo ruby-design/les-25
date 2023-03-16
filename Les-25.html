@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <title>Alles over Ruby Design</title>
+    <meta name="description" content="Een informatiepagina over mij">
+    <meta name="keywords" content="cv, informatie, opleidingen, werkervaring">
+    <meta name="author" content="Ruby Design">
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script>
+            $( function() {
+              $( "#tabs" ).tabs();
+            } );
+    </script>
+</head>
+<body>
+    <script type="text/JavaScript">
+        window.alert("Op deze pagina vindt u een jQuery User interface 'Tabs'-widget met het thema 'Eggplant'. Klik op OK om de website te bekijken en maak gebruik van de drie tabs.");
+        </script>
+        <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+    <header id="header">
+        <div id="logo">
+        <h1>Ruby Design</h1>
+        <h2>Uw webdesigner voor unieke websites</h2>
+        </div>
+    </header>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Over mij</a></li>
+            <li><a href="#tabs-2">Mijn CV</a></li>
+            <li><a href="#tabs-3">Contact</a></li>
+        </ul>
+    <div id="tabs-1">
+        <p>
+        Op deze website vindt u de volgende informatie:
+            <ul>
+                <li>Over mij - een korte introductie</li>
+                <li>Mijn CV - mijn gevolgde opleidingen & werkervaring</li>
+                <li>Contact - neem contact met mij op via het contactformulier</li>
+            </ul>
+        </p>
+        <h2>Over mij</h2>
+        <img src="foto.jpg" alt="Een afbeelding van een vrouw" title="vrouw">
+        <p>Mijn naam is Robinia Huijts en ik ben geboren in Amsterdam op dinsdag 7 april 1981. 
+        Sinds 2011 woon ik met mijn gezin in Uitgeest. Momenteel werk ik als Content & Design Expert en volg ik twee beroepsopleidingen via NHA Opleidingen. 
+        Naast werken & studeren geniet ik in mijn vrije tijd van wandelen, sporten, reizen en lekker eten.</p>              
+    </div>
+    <div id="tabs-2">
+        <p>Hier onder vindt u een overzicht van mijn gevolgde opleidingen en werkervaring.</p>
+           <table>
+                <tr>
+                <th><h2>Opleidingen</h2></th>
+                <th><h2>Werkervaring</h2></th>
+                </tr>
+                <tr>
+                    <td>&#10004; ICT - Webdesign</td>
+                    <td>&#10004; Design & Content Expert - Customer & Digital Experience</td>
+                </tr>
+                <tr>
+                    <td>&#10004; DTP - Grafisch Vormgever</td>
+                    <td>&#10004; Project Manager Sales Support - Global Sales</td>
+                </tr>
+                <tr>
+                    <td>&#10004; BEc - Financieel Management</td>
+                    <td>&#10004; Assistent Market Sales Advisor - Global Markets</td>
+                </tr>
+                <tr>
+                    <td>&#10004; HBO - Marketing Management</td>
+                    <td>&#10004; Securities Operations Specialist - Securities Clearing</td>
+                </tr>
+            </table>              
+    </div>
+    <div id="tabs-3">
+        <form id="form" action="https://formspree.io/f/mlekgqzw" method="post"> Verstuur uw vraag via onderstaand contactformulier.
+                <input type="text" name="voornaam" placeholder="Uw voornaam" />
+                <input type="text" name="achternaam" placeholder="Uw achternaam" />
+                <input type="email" name="email" placeholder="Uw e-mailadres" />
+                <textarea name="bericht" placeholder="Vul hier uw vraag of opmerking in."></textarea>
+                <input type="text" id="formspree" name="_gotcha">
+                <button type="submit" name="Verzendknop" title="Klik op deze knop om het contactformulier te versturen.">Verstuur</button>
+        </form>
+        <h2>Bereikbaarheid</h2>
+        <p>Ruby Design is telefonisch bereikbaar op werkdagen van maandag tot en met vrijdag van 09.00 - 17.30 via het telefoonnummer
+            06 - 12 34 56 78.</p>
+        <h2>Wanneer kunt u een reactie verwachten?</h2>
+        <p>Ruby Design zal - op werkdagen - in ieder geval binnen 48 uur reageren op uw bericht.</p>              
+    </div>
+    </div>
+        <footer id="footer">
+            <br>
+            <div class="left">
+                <small>Copyright &copy; 2022 - 2023 Ruby Design</small>
+            </div>
+            <div class="right">
+                <small><a href="https://www.nha.nl">Cursus Webdesign - NHA Opleidingen</a></small> 	
+            </div>
+        </footer>         
+</body>
+</html>
